@@ -9,7 +9,7 @@ public class MainClass {
         if (input.length() == 0) {
             return new int[0];
         }
-
+        System.out.println("Hello");
         String[] parts = input.split(",");
         int[] output = new int[parts.length];
         for(int index = 0; index < parts.length; index++) {
